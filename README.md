@@ -1,4 +1,5 @@
 # RuggedCSV
+#### By Ben Royans
 
 A simple C# library to read .csv files to DataTables, and write DataTables to .csv files.
 
