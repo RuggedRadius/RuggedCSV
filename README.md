@@ -1,6 +1,7 @@
-# RuggedCSV
-#### By Ben Royans
+# RuggedCSV 
+#### *By Ben Royans*
 
+## Description
 A simple C# library to read .csv files to DataTables, and write DataTables to .csv files.
 
 ## Installation
@@ -23,7 +24,7 @@ You now have access to the following methods:
 * ReadCSV_ToDataTable(string filePath)
 * WriteCSV_FromDataTable(DataTable myDataTable, string filePath)
 ### Read .csv file to DataTable
-The **ReadCSV_ToDataTable** method returns a DataTable from the given filePath. E.g. {path}/bin/Debug/output.csv
+The **ReadCSV_ToDataTable** method returns a DataTable from the given filePath. E.g. C:\output.csv
 
 Example:
 ```c#
@@ -31,7 +32,7 @@ DataTable myDataTable = ReadCSV_ToDataTable("output.csv");
 ```
 
 ### Write .csv file from DataTable
-The **WriteCSV_FromDataTable** method returns a boolean value, true if successful and false is an error occurred. E.g. {path}/bin/Debug/output.csv
+The **WriteCSV_FromDataTable** method returns a boolean value, true if successful and false is an error occurred.
 
 Example:
 ```c#
