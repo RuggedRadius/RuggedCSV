@@ -18,7 +18,9 @@ First add the using state as shown below.
 ```c#
 using static RuggedCSV.RuggedCSV;
 ```
-
+You now have access to the following methods:
+* ReadCSV_ToDataTable(string filePath)
+* WriteCSV_FromDataTable(DataTable myDataTable, string filePath)
 ### Read .csv file to DataTable
 The **ReadCSV_ToDataTable** method returns a DataTable from the given filePath. E.g. C:\output.csv
 
