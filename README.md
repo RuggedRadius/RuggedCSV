@@ -32,8 +32,8 @@ DataTable myDataTable = ReadCSV_ToDataTable("output.csv");
 ```
 
 ### Write .csv file from DataTable
-The **WriteCSV_FromDataTable** method returns a boolean value, true if successful and false is an error occurred.
-E.g. {path}/bin/Debug/output.csv
+The **WriteCSV_FromDataTable** method returns a boolean value, true if successful and false if an error occurrs. E.g. {path}/bin/Debug/output.csv
+
 Example:
 ```c#
 if (WriteCSV_FromDataTable(myDataTable, "output.csv"))
