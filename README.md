@@ -15,7 +15,7 @@ A simple C# library to read .csv files to DataTables, and write DataTables to .c
 
 ### Importing
 
-First add the using state as shown below.
+First add the using statement as shown below.
 
 ```c#
 using static RuggedCSV.RuggedCSV;
